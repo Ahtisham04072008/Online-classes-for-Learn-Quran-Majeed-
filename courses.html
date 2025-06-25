@@ -1,0 +1,68 @@
+<!-- courses.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses - Madarsa Tul Quran</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="images/quran.image.png" alt="Logo">
+      <span>Madarsa Tul Quran</span>
+    </div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="courses.html" class="active">Courses</a></li>
+      <li><a href="signup.html">Sign Up</a></li>
+      <!-- <li><a href="login.html">Login</a></li> -->
+      <li><a href="payment.html">Payment</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+   <!-- Courses Section -->
+  <section class="courses-section">
+    <h2 class="section-title">Our Courses</h2>
+    <div class="courses-grid">
+      <div class="course-card">
+        <i class="fas fa-book-open"></i>
+        <h3>Qaida for Beginners</h3>
+        <p>Learn the basics of Quranic Arabic, starting from the alphabet with easy lessons and pronunciation.</p>
+        <a href="VIEW.HTML" class="course-btn">View Details</a>
+      </div>
+      <div class="course-card">
+        <i class="fas fa-quran"></i>
+        <h3>Quran with Tajweed</h3>
+        <p>Improve your recitation with proper Tajweed rules and guidance from experienced teachers.</p>
+        <a href="QURAN.HTML" class="course-btn">View Details</a>
+      </div>
+      <div class="course-card">
+        <i class="fas fa-brain"></i>
+        <h3>Memorization (Hifz)</h3>
+        <p>Join our structured Hifz program to memorize the Holy Quran with consistency and support.</p>
+        <a href="HIFZ.HTML" class="course-btn">View Details</a>
+      </div>
+      <div class="course-card">
+        <i class="fas fa-book-reader"></i>
+        <h3>Translation & Tafseer</h3>
+        <p>Understand the meaning of Quranic verses and gain deeper insight through Tafseer lessons.</p>
+        <a href="TRANSLATION.HTML" class="course-btn">View Details</a>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <p>&copy; 2025 Madarsa Tul Quran. All rights reserved.</p>
+    <p>“The best among you are those who learn the Quran and teach it.” – Prophet Muhammad ﷺ</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

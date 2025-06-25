@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Payment - Madarsa Tul Quran</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="images/quran.image.png" alt="Logo">
+      <span>Madarsa Tul Quran</span>
+    </div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="signup.html">Sign Up</a></li>
+      <!-- <li><a href="login.html">Login</a></li> -->
+      <li><a href="payment.html" class="active">Payment</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <section class="page-section payment-section">
+    <h1>Choose a Payment Method</h1>
+
+    <div class="payment-options">
+      <div class="payment-card">
+        <h2>🇵🇰 JazzCash / EasyPaisa</h2>
+        <p><strong>Account Number:</strong> 0300-1234567</p>
+        <p><strong>Account Name:</strong> Madarsa Tul Quran</p>
+        <p>Send screenshot to WhatsApp after payment.</p>
+      </div>
+
+      <div class="payment-card">
+        <h2>🌍 PayPal (International)</h2>
+        <p><strong>Email:</strong> madarsatulquran@gmail.com</p>
+        <a href="https://paypal.me/yourlink" class="pay-btn" target="_blank">Pay via PayPal</a>
+      </div>
+
+      <div class="payment-card">
+        <h2>🌐 Bank Transfer (For Overseas)</h2>
+        <p><strong>IBAN:</strong> PK00ABCD123456789000</p>
+        <p><strong>Bank Name:</strong> Islamic Bank Ltd.</p>
+        <p><strong>Swift Code:</strong> ISLMABCD</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Madarsa Tul Quran. All rights reserved.</p>
+    <p>“The best among you are those who learn the Quran and teach it.” – Prophet Muhammad ﷺ</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Madarsa Tul Quran</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="images/quran.image.png" alt="Logo" />
+      <span>Madarsa Tul Quran</span>
+    </div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="signup.html">Sign Up</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="payment.html">Payment</a></li>
+      <li><a href="contact.html" class="active">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <section class="page-section contact-section">
+    <h1>Contact Us</h1>
+    <form class="form" id="contactForm">
+      <input type="text" placeholder="Your First Name" required />
+      <input type="text" placeholder="Your Last Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="text" placeholder="Your Country Name" required />
+      <input type="text" placeholder="Your City" required />
+      <input type="tel" placeholder="Your Phone Number" required />
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+      <p class="form-success" id="formSuccess">✅ Message sent successfully!</p>
+    </form>
+
+    <div class="contact-info">
+      <p><i class="fab fa-whatsapp"></i> WhatsApp: +92 460334431</p>
+      <p><i class="fas fa-phone-alt"></i> Phone: +92 460334431</p>
+      <p><i class="fas fa-envelope"></i> Email: info@madarsatulquran.com</p>
+    </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 Madarsa Tul Quran. All rights reserved.</p>
+    <p>“The best among you are those who learn the Quran and teach it.” – Prophet Muhammad ﷺ</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

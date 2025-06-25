@@ -1,0 +1,322 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Madarsa Tul Quran</title>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+     <div class="logo">
+    <img src="images/quran.image.png" alt="Logo" class="logo-img">
+    <span>Madarsa Tul Quran</span>
+  </div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="About.html">About Us</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="signup.html">Sign Up</a></li>
+      <!-- <li><a href="login.html">Login</a></li> -->
+      <li><a href="payment.html">Payment</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+<!-- hero section -->
+ <section class="hero-section">
+    <img src="images/HERO.IMAGE.jpeg" alt="Hero Image" class="hero-img">
+    <div class="hero-content">
+      <h1>Welcome to Madarsa Tul Quran</h1>
+      <p>Learn Quran with Tajweed from Certified Islamic Teachers</p>
+    </div>
+  </section>
+  <!--  -->
+<section class="steps-section">
+  <h2>Online Quran Education in Three Simple Steps</h2>
+  <div class="steps-container">
+
+    <div class="step-box">
+      <div class="step-icon"><i class="fas fa-calendar-check"></i></div>
+      <h3>1- Book a Free Trial Class</h3>
+      <p>Fill out the form below to schedule a free trial class with our online Quran classes in USA. We will contact you on WhatsApp to arrange your trial session.</p>
+    </div>
+
+    <div class="step-box">
+      <div class="step-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+      <h3>2- Take Your Free Lesson</h3>
+      <p>Attend your free Quran lesson with a highly qualified teacher at your chosen time, with no need to provide payment or credit card details.</p>
+    </div>
+
+    <div class="step-box">
+      <div class="step-icon"><i class="fas fa-book-reader"></i></div>
+      <h3>3- Enroll in Full Course</h3>
+      <p>After the demo class, select a monthly plan and register for the complete course.</p>
+    </div>
+
+  </div>
+</section>
+
+ <div class="container">
+    <h1>Prayer Clock</h1>
+
+    <div class="form-group">
+      <input type="text" id="country" placeholder="Enter Country" />
+      <input type="text" id="city" placeholder="Enter City" />
+      <button onclick="getPrayerTimes()">Get Times</button>
+    </div>
+
+    <div class="time-box">
+      <h2>Local Time: <span id="localTime">--:--:--</span></h2>
+      <h2>Gregorian Date: <span id="gregorianDate">--</span></h2>
+      <h2>Islamic Date: <span id="hijriDate">--</span></h2>
+    </div>
+
+    <div class="prayer-times" id="prayerCards"></div>
+    <div class="countdown" id="countdownTimer"></div>
+  </div>
+
+  <h1><b><u>Monthly Package</u></b></h1>
+<div class="pricing-section">
+  <div class="pricing-box">
+    <h3>2 DAYS/WEEK</h3>
+    <p>$ 40 Per Month</p>
+    <div class="price">$35</div>
+    <ul>
+      <li>✔ £30/Month</li>
+      <li>✔ 30 Minutes/Live Session</li>
+      <li>✔ 8 Classes/Month</li>
+    </ul>
+  </div>
+  <div class="pricing-box">
+    <h3>3 DAYS/WEEK</h3>
+    <p>$ 55 Per Month</p>
+    <div class="price">$45</div>
+    <ul>
+      <li>✔ £38/Month</li>
+      <li>✔ 30 Minutes/Live Session</li>
+      <li>✔ 12 Classes/Month</li>
+    </ul>
+  </div>
+  <div class="pricing-box">
+    <h3>4 DAYS/WEEK</h3>
+    <p>$ 70 Per Month</p>
+    <div class="price">$60</div>
+    <ul>
+      <li>✔ £50/Month</li>
+      <li>✔ 30 Minutes/Live Session</li>
+      <li>✔ 16 Classes/Month</li>
+    </ul>
+  </div>
+  <div class="pricing-box">
+    <h3>5 DAYS/WEEK</h3>
+    <p>$ 85 Per Month</p>
+    <div class="price">$75</div>
+    <ul>
+      <li>✔ £60/Month</li>
+      <li>✔ 30 Minutes/Live Session</li>
+      <li>✔ 20 Classes/Month</li>
+    </ul>
+  </div>
+</div>
+
+<div class="course-section">
+  <h2>Our Quran Courses</h2>
+  <div class="course-boxes">
+    <div class="course-card">
+      <img src="images/chapter12.png" alt="Noorani Qaida">
+      <div class="card-content">
+        <h3>Learn Noorani Qaida Online</h3>
+        <p>
+          The Online Noorani Qaida Course or Noorani Qaida Online is an important program for people trying to learn how to read the Quran from the very beginning. In this Quran course, we teach important lessons that improve how well a person recites from the Quran. The Noorani Qaida Course gradually leads the learner from the Arabic letters, to letters united, to words, sentences and important elements of Tajweed. 
+        </p>
+        <a href="Norani.html" class="details-btn">Check Details</a>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <img src="images/memorize.image.jpeg" alt="Hifz Course">
+      <div class="card-content">
+        <h3>Memorize Quran Online</h3>
+        <p>
+          We aim to help Muslims on their journey to finish Hifz Quran. Whatever your ambitions are in memorizing the Quran, online Quran Hifz classes with us are perfect for getting started. This is why you should consider taking one of the best Quran memorization Classes. If your kid or you want to memorize the Quran easily, you can try it for free now. 
+        </p>
+        <a href="MEMORIZE.HTML" class="details-btn">Check Details</a>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <img src="images/chapter14.jpeg" alt="Tajweed Course">
+      <div class="card-content">
+        <h3>Learn Quran with Tajweed</h3>
+        <p>
+         Tajweed means the Arabic word for beautification. Reciting the Quran under Tajweed sets the correct way to pronounce and recite its verses. It means each letter in the Quran is read with its proper rights and qualities when someone recites. So, each Muslim should make sure to learn the Holy Quran online following the proper Tajweed rules.
+        </p>
+        <a href="ARABIC.HTML" class="details-btn">Check Details</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="big-feature-box">
+  <div class="feature-text">
+    <h2>Is Home-Based Quran Tajweed Learning in the USA Suitable for Adults and Kids?</h2>
+    <p>It is not always that Muslims get time to study the Quran in the modern hectic world. This is the reason we have established Online Quran Classes in the USA that would fit your time, learning style and speed. With our flexible programs, you can learn Quran in your own pace and without the stress and time pressure of fitting it into your life. Learning Quran online is a source of peace and spiritual elevation, as you get to know you are doing the right thing.
+   <br>  <br>
+Online Quran Arabic classes are popular in more than ninety countries including the USA as they not only assist the student to develop knowledge but also a stronger relationship with the Quran. You are welcome to use our free trial classes and get acquainted with various Quran courses and teachers so that you could find the one that suits you.</p>
+  </div>
+  <div class="feature-image">
+    <img src="images/chapter16.jpeg" alt="Quran Learning">
+  </div>
+</div>
+
+<div class="quran-learning-section">
+  <div class="quran-image">
+    <img src="images/BACKGROUND.IMAGE.11.jpeg" alt="Learn Quran Online">
+  </div>
+  <div class="quran-text">
+    <h2>How to Learn Quran Online with Tajweed in Engaging and Interesting manner?</h2>
+    <p>
+      With modern technology, it has become possible to gain quality Islamic education anywhere in the world than ever before. We are living in the age of technology and at Online Quran Academy USA we take pride in being able to structurally and interactively teach our students located in close to 90 countries, especially children, how to recite the Quran with proper Tajweed.
+      <br><br>
+      In case you are seeking to study Quran online in USA then you have come to the right platform.
+      <br><br>
+      We are taking the blessed teachings of the Holy Quran to your doorstep with our live one-on-one sessions, which are as efficient as the face to face learning. Our program will fit your life whether you are just starting or you want to advance your recitation.
+    </p>
+  </div>
+</div>
+<div class="highlight-box">
+  <div class="divider-left"></div>
+  <h2>Do you or your kids want to learn the Quran? Why wait?</h2>
+  <p>
+    Our Online Quran Academy USA has simplified and made the learning process of the Quran reading and comprehension easy and accessible to all ages. Are you a parent in need of a trusted Female Quran Teacher Online USA or an adult student who needs a one-on-one lesson, our site will help you find the right teacher that will fit your specific requests.
+    <br><br>
+    We provide Online Quran Classes in USA at family, children, and adult levels — this means a conducive atmosphere where each one of you is able to learn at his/her pace. In some cases, such as Muslims residing in non-Muslim states or nations such as USA or UK, it may be a problem to get qualified Quran teachers in their local areas. It is with this aim that we have taken it upon ourselves to utilize online education and deliver quality Tutors to your very doorstep.
+    <br><br>
+    Our female Quran teachers are well experienced and speak a variety of languages, thus students of all backgrounds are likely to feel free and completely comprehend what they are taught. And regardless of whether you are interested in Tajweed, simple Quran reading or memorization, our trained personnel will be there to help you through each step.
+  </p>
+</div>
+
+<div class="content-box">
+  <div class="content-text">
+    <h2>How Do Quran Classes Online Benefit Children in the USA?</h2>
+    <p>
+      Online learning gives you the opportunity to learn from teachers in countries like the USA, Pakistan, Egypt, Jordan and Saudi Arabia, without being restricted to teachers close to you. Since our teachers use English, Arabic and Urdu, students who are starting to learn Tajweed or Arabic have no language barriers, even if they are not fluent in Arabic. We provide Quran recitation lessons, as well as instruction in Basic Tajweed, Arabic, Qirat, Ijazah and Quran Memorization to people of all ages. Benefits exist for learning the Quran as a child, but it’s always possible to start studying later. You don’t have to wait until you’re old to start. For many children, learning Quran from a distance is attractive since they are drawn to technology. And because online courses can be flexible, students can fit regular religious study into their daily routines.
+    </p>
+  </div>
+  <div class="content-image">
+    <img src="images/chapter20.jpg" alt="Quran Learning">
+  </div>
+</div>
+
+  <section class="faq-section">
+    <h2 class="faq-title">Frequently Asked Questions</h2>
+
+    <div class="faq">
+      <button class="faq-question">
+        <span>Ready to Start Learning Quran? Join Our Free 3-Day Classes</span>
+        <span class="arrow">▼</span>
+      </button>
+      <div class="faq-answer">
+        <p>Join our <b>3-day free Quran classes</b> and begin your spiritual journey with expert guidance. These sessions are perfect for beginners or anyone wanting to reconnect with the Quran. Learn the basics of Tajweed, proper pronunciation, and foundational understanding in just three days. It’s a great opportunity to experience quality Quran education with no cost or commitment. Register now and start learning from the comfort of your home!</p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <button class="faq-question">
+        <span>How Can You Learn the Quran Easily from Home?</span>
+        <span class="arrow">▼</span>
+      </button>
+      <div class="faq-answer">
+        <p>We offer high-quality Quran education that is both accessible and affordable for students of all ages. Our experienced tutors ensure a structured and effective learning experience. With easy online access, you can learn from the comfort of your home at your convenience. Whether you’re a beginner or looking to improve your Tajweed, our courses are tailored to your needs. Join our online Quran classes today and experience flexible, results-driven learning.</p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <button class="faq-question">
+        <span>How Does Our Online Quran Academy Reflect Commitment and Integrity?</span>
+        <span class="arrow">▼</span>
+      </button>
+      <div class="faq-answer">
+        <p>At Online Quran Academy in USA, Canada and UK, we prioritize high-quality teaching in our mission. To demonstrate our commitment, we offer trial classes for online Quran learning, allowing you to start with confidence. Our orientation courses further affirm our dedication to delivering exceptional education. We are committed to providing genuine services and operate with integrity in the service of Allah. As Muslims, promoting goodness is our duty, and the positive impact of our teachings is truly remarkable.</p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <button class="faq-question">
+        <span>Why Choose Our Online Quran Teachers for Quality Education?</span>
+        <span class="arrow">▼</span>
+      </button>
+      <div class="faq-answer">
+        <p>Our online Quran classes are offered at reasonable rates, ensuring you receive high-quality education from good Quran teachers. We are committed to maintaining the highest standards of teaching, with a team of experienced tutors who are well-qualified from prestigious universities. Our online Quran tutors have a proven track record of effectively teaching the Quran over the years, demonstrating their expertise and dedication.
+Our tutors build a supportive, familial relationship with students, fostering a positive learning environment. With their guidance, you can expect a results-driven educational experience. Choose our online Quran teachers to benefit from knowledgeable instructors and a commitment to excellence in Quran education.</p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <button class="faq-question">
+        <span>About Us</span>
+        <span class="arrow">▼</span>
+      </button>
+      <div class="faq-answer">
+        <p>Our company operates from the USA, UAE, and Pakistan, but we offer classes worldwide. Our Quran and Tajweed lessons are available in countries like the USA, UK, Australia, Canada, Germany, Norway, Ireland, Switzerland, France, Italy, Iceland, Sweden, Denmark, Finland, Singapore, Hong Kong, Belgium, Spain, and UAE. Our mission is to provide high-quality Quran and Tajweed education to both adults and children around the world.</p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <button class="faq-question">
+        <span>Our Philosophy</span>
+        <span class="arrow">▼</span>
+      </button>
+      <div class="faq-answer">
+        <p>We are dedicated to seeking the blessings of Almighty Allah by sharing His word with Muslims worldwide, helping them follow the righteous path. We emphasize the importance of learning Tajweed because true understanding comes from reciting the Quran correctly. Our goal is to bring Allah’s message, in its purest and most beautiful form, to both born Muslims, converts, and anyone interested in learning the Quran. Beyond teaching scripture, we aim to guide our students to be good Muslims, serving as role models and spreading the light and knowledge of the Quran in their communities.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="why-us-section">
+  <div class="why-us-content">
+    <h2>Why Study with Us?</h2>
+    <p><strong>🌍 Global Presence Since 2019:</strong> Learn Quran USA has been providing trusted online Quran learning services since 2019, reaching students in over 100 countries, including the USA, UK, Europe, Australia, and Canada.</p>
+    <p><strong>🕒 24/7 Online Quran Classes for All Schedules:</strong> We provide flexible, round-the-clock Quran lessons to ensure that you and your children can learn at your convenience even with the busiest schedules.</p>
+    <p><strong>👨‍🏫 Personalized One-on-One Quran Classes:</strong> We offer dedicated one-on-one Quran classes with gender-specific instructors—brothers learn with male tutors and sisters with female Quran tutors for a comfortable and focused learning experience.</p>
+    <p><strong>📊 Monthly Evaluation Reports for Consistent Progress:</strong> Our quality control team not only monitors teacher performance but also provides you with detailed monthly progress reports to track your Quran learning journey.</p>
+    <p><strong>🗣️ Experienced Multilingual Quran Tutors:</strong> We proudly offer skilled Arab and Non-Arab male and female Quran teachers from Egypt, Jordan, and Pakistan ensuring high-quality instruction in multiple languages to suit every learner’s needs.</p>
+  </div>
+</section>
+
+<section class="newsletter-section">
+  <div class="newsletter-content">
+    <h2>📩 Sign up to Newsletter</h2>
+    <p>Enter your email to subscribe to our newsletter.</p>
+    <form class="newsletter-form" onsubmit="return handleNewsletterSubmit(event)">
+      <input type="email" placeholder="Enter your email" required />
+      <button type="submit">Send</button>
+    </form>
+
+    <div class="contact-info">
+      <h3>📞 GOT QUESTIONS? CALL US 24/7!</h3>
+      <p><i class="fas fa-phone-alt"></i> US / CA: +𝟭-𝟵𝟬𝟯-𝟮𝟬𝟭-𝟰𝟮𝟰𝟵</p>
+      <p><i class="fab fa-whatsapp"></i> WhatsApp: +92-336-4471-960</p>
+      <p><i class="fas fa-envelope"></i> Email: info@learnquranusa.com</p>
+    </div>
+  </div>
+</section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Madarsa Tul Quran. All rights reserved.</p>
+    <p>“The best among you are those who learn the Quran and teach it.” – Prophet Muhammad ﷺ</p>
+  </footer>
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
